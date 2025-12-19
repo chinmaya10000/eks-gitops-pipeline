@@ -4,11 +4,11 @@ variable "region" {
 }
 
 variable "bucket" {
-  type        = string
+  type = string
   description = "S3 bucket for terraform state."
 }
 
 variable "github_repos" {
-  type        = list(string)
+  type = string
   description = "List of GitHub repositories."
 }
