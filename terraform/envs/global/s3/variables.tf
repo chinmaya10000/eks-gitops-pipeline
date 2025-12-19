@@ -9,6 +9,6 @@ variable "bucket" {
 }
 
 variable "github_repos" {
-  type = string
+  type = list(string)
   description = "List of GitHub repositories."
 }
